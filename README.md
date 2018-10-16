@@ -89,6 +89,10 @@ The project's `/tests` folder contains an example test file. Its functions aren'
 
 While this might not be necessary, you may tweak the configuration of tox by updating its configuration file `tox.ini`. In particular, you should add testing for Python 2.7 if you are planning to support this version.
 
+### What about Python 3.7?
+
+Python 3.7 is included in the `tox.ini` but not in the `.travis.yml` file. The reason for the latter is that Travis does not support "out of the box". If you want to include it, you have to modify the configuration file in line with the recipe given at the end of [https://github.com/travis-ci/travis-ci/issues/9069#issuecomment-425720905](https://github.com/travis-ci/travis-ci/issues/9069#issuecomment-425720905).
+
 ### Create documentation
 
 First, a warning. When Sphinx generates the documentation, it will import the Python modules. **Make sure that all code with side effects such as changing files or updating a database is protected by an `if __name__ == '__main__` condition.**
