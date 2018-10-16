@@ -91,7 +91,7 @@ While this might not be necessary, you may tweak the configuration of tox by upd
 
 ### What about Python 3.7?
 
-Python 3.7 is included in the `tox.ini` but not in the `.travis.yml` file. The reason for the latter is that Travis does not support "out of the box". If you want to include it, you have to modify the configuration file in line with the recipe given at the end of [https://github.com/travis-ci/travis-ci/issues/9069#issuecomment-425720905](https://github.com/travis-ci/travis-ci/issues/9069#issuecomment-425720905).
+Python 3.7 is included in the `tox.ini` but not in the `.travis.yml` file. The reason for the latter is that Travis does not support Python 3.7 "out of the box". If you want to include it, you have to modify the configuration file in line with the recipe given at the end of [https://github.com/travis-ci/travis-ci/issues/9069#issuecomment-425720905](https://github.com/travis-ci/travis-ci/issues/9069#issuecomment-425720905).
 
 ### Create documentation
 
