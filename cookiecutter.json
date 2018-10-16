@@ -1,0 +1,13 @@
+{
+  "full_name": "Your Name",
+  "email": "your@email.example.com",
+  "project_name": "Project Name",
+  "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "version": "0.1.0",
+  "github_username": "github_username",
+  "github_repository": "{{ cookiecutter.package_name }}",
+  "command_line_interface": ["Click", "No command-line interface"],
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+  "install_project": ["yes", "no"]
+}
