@@ -1,6 +1,6 @@
 # cookiecutter-python-package
 
-A boilerplate for Python packages that can be installed via `pip`. It is based on [Audrey Roy Greenfeld's pypackage cookiecutter](https://github.com/audreyr/cookiecutter-pypackage).
+A boilerplate for Python packages that can be installed via pip. It is based on [Audrey Roy Greenfeld's pypackage cookiecutter](https://github.com/audreyr/cookiecutter-pypackage).
 
 ## Getting started
 
