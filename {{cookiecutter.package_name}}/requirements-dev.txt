@@ -6,7 +6,5 @@ tox
 coverage
 Sphinx
 twine
-{% if cookiecutter.command_line_interface == 'y' -%}
-click{% endif %}
 pytest
 pytest-runner
