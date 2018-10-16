@@ -3,7 +3,7 @@
   "email": "your@email.example.com",
   "project_name": "Project Name",
   "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "project_short_description": "All the boilerplate you need to create a Python package.",
   "version": "0.1.0",
   "github_username": "github_username",
   "github_repository": "{{ cookiecutter.package_name }}",

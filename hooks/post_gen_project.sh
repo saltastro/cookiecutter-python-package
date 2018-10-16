@@ -12,7 +12,7 @@ fi
 
 if [[ "{{ cookiecutter.install_project }}" = "yes" ]]
 then
-    echo Creating a virtual environment...
+    echo "Creating a virtual environment"
     python3 -m venv venv
     source venv/bin/activate
     if [[ $? != 0 ]]
@@ -36,8 +36,13 @@ echo
 echo "TLDR;"
 echo
 echo "cd {{ cookiecutter.package_name }}"
-{% if cookiecutter.install_project %}
+{% if cookiecutter.install_project == "yes" %}
 echo "source venv/bin/activate"
+{% else %}
+echo "python3 -m venv venv"
+echo "source venv/bin/activate"
+echo "pip install -r requirements-dev.txt"
+echo "pip install -e ."
 {% endif %}
 echo "make help"
 echo
