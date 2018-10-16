@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 with open('README.md') as readme_file:
     readme = readme_file.read()
 
-requirements = [{%- if cookiecutter.command_line_interface|lower == 'click' %}'Click>=6.0',{%- endif %}]
+requirements = [{%- if cookiecutter.command_line_interface|lower == 'click' %}'Click>=6.0'{%- endif %}]
 
 setup_requirements = ['pytest-runner']
 
