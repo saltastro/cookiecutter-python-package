@@ -32,3 +32,14 @@ echo
 echo "https://github.com/saltastro/cookiecutter-python-package"
 echo
 echo "for details on how to get started."
+echo
+echo "TLDR;"
+echo
+echo "cd {{ cookiecutter.package_name }}"
+{% if cookiecutter.install_project %}
+echo "source venv/bin/activate"
+{% endif %}
+echo "make help"
+echo
+
+
