@@ -33,7 +33,7 @@ echo "https://github.com/saltastro/cookiecutter-python-package"
 echo
 echo "for details on how to get started."
 echo
-echo "TLDR;"
+echo "TL;DR"
 echo
 echo "cd {{ cookiecutter.package_name }}"
 {% if cookiecutter.install_project == "yes" %}
