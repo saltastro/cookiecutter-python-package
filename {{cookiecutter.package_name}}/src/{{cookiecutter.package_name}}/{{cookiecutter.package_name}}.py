@@ -1,7 +1,8 @@
 def hello(name):
     """Generate a friendly greeting.
 
-    Greeting is an important part of culture. This function takes a name and generates a friendly greeting for it.
+    Greeting is an important part of culture. This function takes a name and
+    generates a friendly greeting for it.
 
     Parameters
     ----------
