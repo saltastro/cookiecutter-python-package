@@ -12,6 +12,9 @@
 ### Changed
 - maximum line length is 88 (default of black)
 
+### Fixed
+- flask8 called with wrong path to source code
+
 ## [0.0.1] - 2018-10-17
 
 ### Added:
